@@ -77,6 +77,7 @@ export function initFactory(
     const htmlEl = window.document.documentElement;
     htmlEl.classList.add("os_" + platformUtilsService.getDeviceString());
     htmlEl.classList.add("locale_" + i18nService.translationLocale);
+    htmlEl.setAttribute("lang", i18nService.translationLocale);
     const theme = await platformUtilsService.getEffectiveTheme();
     htmlEl.classList.add("theme_" + theme);
     platformUtilsService.onDefaultSystemThemeChange(async (sysTheme) => {
