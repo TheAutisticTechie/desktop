@@ -303,7 +303,7 @@
     "node-ipc": "^9.1.4",
     "nord": "^0.2.1",
     "regedit": "^3.0.3",
-    "rxjs": "^7.4.0",
+    "rxjs": "^7.5.4",
     "sweetalert2": "^10.16.6"
   },
   "engines": {
